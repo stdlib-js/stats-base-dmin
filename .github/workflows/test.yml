@@ -39,16 +39,17 @@ jobs:
         with:
           node-version: 16
         timeout-minutes: 5
-      - name: Set `gypfile` in `package.json` to `true` to build native add-on
-        run: |
-          if [ -f "binding.gyp" ]; then
-            sed -i 's/^\(\"gypfile\":\).*/\1 true/' package.json
-          fi
       - name: Install production and development dependencies
         id: install
         run: |
           npm install || npm install || npm install
         timeout-minutes: 15
+      - name: Build native addons if `binding.gyp` exists
+        id: build-addons
+        run: |
+          if [ -f "binding.gyp" ]; then
+            npm install node-gyp --no-save && ./node_modules/.bin/node-gyp rebuild
+          fi
       - name: Run tests
         id: tests
         run: |
