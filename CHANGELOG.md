@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-26)
+## Unreleased (2025-01-02)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b7f05ba`](https://github.com/stdlib-js/stdlib/commit/b7f05ba1c3e170908fc56b291d87ed33ee34d5b6) - **docs:** fix errors in examples and docs for `stats/base/dmin` [(#4367)](https://github.com/stdlib-js/stdlib/pull/4367) _(by Aayush Khanna)_
 -   [`217351f`](https://github.com/stdlib-js/stdlib/commit/217351fe17ccb4479b1193ebaa3cdd36d89017b5) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dmin` [(#4190)](https://github.com/stdlib-js/stdlib/pull/4190) _(by Aayush Khanna)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
