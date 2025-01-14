@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-13)
+## Unreleased (2025-01-14)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`b00d9f1`](https://github.com/stdlib-js/stdlib/commit/b00d9f1064701187f48a05b9753e74ae835b0726) - **docs:** fix typing error in `repl.txt` of `stats/base/*` [(#4750)](https://github.com/stdlib-js/stdlib/pull/4750) _(by Aayush Khanna)_
 -   [`f257760`](https://github.com/stdlib-js/stdlib/commit/f257760db466ba38810e4fbb9fde4826e21f64ee) - **docs:** update examples of `stats/base/dmin` [(#4713)](https://github.com/stdlib-js/stdlib/pull/4713) _(by Aayush Khanna)_
 -   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
 -   [`b7f05ba`](https://github.com/stdlib-js/stdlib/commit/b7f05ba1c3e170908fc56b291d87ed33ee34d5b6) - **docs:** fix errors in examples and docs for `stats/base/dmin` [(#4367)](https://github.com/stdlib-js/stdlib/pull/4367) _(by Aayush Khanna)_
